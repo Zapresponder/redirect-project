@@ -16,7 +16,7 @@ redis.on("error", (err) => {
   console.error("Erro na conexão com Redis:", err)
 })
 
-const IGNORED_METHODS = ["OPTIONS", "HEAD"]
+const IGNORED_METHODS = ["OPTIONS", "HEAD", "GET"]
 
 app.use(async (req, res) => {
   try {

@@ -8,8 +8,8 @@ module.exports = {
   ],
   deploy: {
     production: {
-      user: "root",
-      host: "72.60.13.5",
+      user: "zapresponder",
+      host: "10.10.30.20",
       ref: "origin/main",
       repo: "https://github.com/Zapresponder/redirect-project.git",
       path: "/root/apps/redirect-project",

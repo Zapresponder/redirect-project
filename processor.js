@@ -3,7 +3,7 @@ const axios = require("axios")
 const Redis = require("ioredis")
 
 const redis = new Redis(process.env.REDIS_URL)
-const TARGET_URL = "https://polite-unicorn-69.webhook.cool"
+const TARGET_URL = "https://api.zapresponder.com.br"
 
 redis.on("connect", () => {
   console.log("Conectado ao Redis com sucesso!")

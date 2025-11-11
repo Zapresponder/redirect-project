@@ -12,7 +12,7 @@ module.exports = {
       host: "10.10.30.20",
       ref: "origin/main",
       repo: "https://github.com/Zapresponder/redirect-project.git",
-      path: "/redirect-project",
+      path: "/home/zapresponder/redirect-project",
       "pre-deploy-local": "",
       "post-deploy":
         "npm install && pm2 reload ecosystem.config.js --env production",

@@ -11,7 +11,7 @@ module.exports = {
       user: "zapresponder",
       host: "10.10.30.20",
       ref: "origin/main",
-      repo: "https://github.com/Zapresponder/redirect-project.git",
+      repo: "git@github.com:Zapresponder/redirect-project.git",
       path: "/home/zapresponder/redirect-project",
       "pre-deploy-local": "",
       "post-deploy":
